@@ -1,8 +1,8 @@
 Privacy Policy for Hue: Mood Journal
 
-Last Updated: April 11, 2026
+Last Updated: October 12, 2026
 
-Daniel Raherimanjato ("we", "us", or "our") built the Hue: Mood Journal app (the "App") as a Freemium app. This SERVICE is provided by Daniel Raherimanjato at no cost for the basic features, with optional premium features available via subscription, and is intended for use as is.
+Daniel Raherimanjato ("we", "us", or "our") built the Hue: Mood Journal app (the "App") as a Freemium app. This SERVICE is provided by Daniel Raherimanjato at no cost for the basic features, with optional premium features available via subscription or a one-time lifetime purchase, and is intended for use as is.
 
 This page is used to inform visitors regarding our policies with the collection, use, and disclosure of Personal Information if anyone decided to use our Service.
 
@@ -19,8 +19,14 @@ Free Users: All your journal data is stored locally on your device using Apple's
 •
 Premium Users: If you enable iCloud Sync, your data is securely synced to your personal Apple iCloud account using CloudKit. We do not have access to your iCloud data.
 
-Analytics and Crash Reporting
-To improve the App and understand how it is used, we use a privacy-first analytics service called TelemetryDeck. TelemetryDeck collects anonymized, aggregated usage data (such as which screens are viewed or which features are used). This data is completely anonymous and cannot be traced back to you. We do not collect any personally identifiable information through TelemetryDeck.
+Usage Analytics
+Hue version 1.4 and later do not include TelemetryDeck and do not send screen views, mood check-ins, notes, photos, or context tags to a usage analytics service. Earlier versions of Hue may continue to send anonymous usage events through TelemetryDeck until you update the app.
+
+Home Screen Widget
+The widget opens a new check-in. Your mood is hidden by default. If you choose to show your mood in Hue Settings, the app shares only the latest check-in date and mood score with its own widget through an Apple App Group on your device. Notes, photos, and context tags are never included in that shared summary. Turning the setting off removes the mood score from the summary.
+
+Journal Exports
+Exports are created on your device. A complete JSON export includes notes, photos, mood entries, and context tags; CSV includes text and context; PDF includes notes and photos. Hue does not upload these exports to an analytics service. If you choose to share an export, the app or recipient you select receives that file.
 
 In-App Purchases
 We use RevenueCat to manage in-app purchases and subscriptions. RevenueCat may collect anonymous data regarding your purchase history and subscription status to provide this service. RevenueCat does not have access to your journal data.
@@ -69,7 +75,7 @@ Changes to This Privacy Policy
 
 We may update our Privacy Policy from time to time. Thus, you are advised to review this page periodically for any changes. We will notify you of any changes by posting the new Privacy Policy on this page.
 
-This policy is effective as of April 11, 2026.
+This update is effective as of October 12, 2026. The description of usage analytics distinguishes version 1.4 and later from earlier versions.
 
 Contact Us
 
