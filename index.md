@@ -1,6 +1,6 @@
 Privacy Policy for Hue: Mood Journal
 
-Last Updated: October 12, 2026
+Last Updated: October 13, 2026
 
 Daniel Raherimanjato ("we", "us", or "our") built the Hue: Mood Journal app (the "App") as a Freemium app. This SERVICE is provided by Daniel Raherimanjato at no cost for the basic features, with optional premium features available via subscription or a one-time lifetime purchase, and is intended for use as is.
 
@@ -18,6 +18,16 @@ Free Users: All your journal data is stored locally on your device using Apple's
 
 •
 Premium Users: If you enable iCloud Sync, your data is securely synced to your personal Apple iCloud account using CloudKit. We do not have access to your iCloud data.
+
+Optional Apple Sign-In (version 1.5 and later)
+You can use Hue without signing in. If you choose Sign in with Apple, Apple supplies an app-specific user identifier and may supply your name and email address, including a private relay address if you choose Hide My Email. Hue uses these details to display and restore your saved Apple profile after checking your authorization with Apple.
+
+The profile is stored in Apple's encrypted Keychain. When iCloud Keychain is enabled and available, Apple can synchronize the saved profile to your other Apple devices. We do not receive these profile details on a Hue server or send them to RevenueCat. Hue does not store Apple passwords, identity tokens, authorization codes, or refresh tokens.
+
+Signing out applies to this device. You can remove the saved profile in Hue Settings, which also removes its synchronized Keychain copies when synchronization is available. Journal entries are kept separately. You can revoke Hue's Apple sign-in authorization in your Apple Account settings. Journal sync remains a separate, optional Premium feature and uses the iCloud account selected in device Settings.
+
+App Update Checks (version 1.5 and later)
+Hue contacts Apple's public App Store lookup service to check for newer versions. The request includes Hue's App Store identifier and the country code used for the lookup. Apple also receives ordinary network information needed to service the request, such as your IP address. Hue does not include journal contents or saved Apple profile details in update requests. The app stores the latest result, check time, and dismissed update version locally. iOS controls automatic installation through your device's App Store settings.
 
 Usage Analytics
 Hue version 1.4 and later do not include TelemetryDeck and do not send screen views, mood check-ins, notes, photos, or context tags to a usage analytics service. Earlier versions of Hue may continue to send anonymous usage events through TelemetryDeck until you update the app.
@@ -75,10 +85,9 @@ Changes to This Privacy Policy
 
 We may update our Privacy Policy from time to time. Thus, you are advised to review this page periodically for any changes. We will notify you of any changes by posting the new Privacy Policy on this page.
 
-This update is effective as of October 12, 2026. The description of usage analytics distinguishes version 1.4 and later from earlier versions.
+This update is effective as of October 13, 2026. The description of usage analytics distinguishes version 1.4 and later from earlier versions. Apple sign-in and update checks apply to version 1.5 and later.
 
 Contact Us
 
 If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us at:
 draherim.agent@gmail.com
-
